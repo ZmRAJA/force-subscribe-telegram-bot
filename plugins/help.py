@@ -42,7 +42,7 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/Case_Law_India"),
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
                            InlineKeyboardButton("Support Group", url="https://t.me/LAW_Notes_Llb_Notes")
                       ],
                      [
@@ -59,7 +59,7 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Case_Law_India"),
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
                     InlineKeyboardButton("Support Group", url="https://t.me/LAW_Notes_Llb_Notes")
                 ],
                 [
@@ -83,7 +83,7 @@ def _source_code(client, message):
                 ],
                 [
                    
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Case_Law_India"),
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
                     InlineKeyboardButton("Support Group", url="https://t.me/LAW_Notes_Llb_Notes")
                 ],
                 [
