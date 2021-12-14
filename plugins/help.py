@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Bro, You are Banned to use me. Contact my [Support Group](https://t.me/joinchat/fWTl8WXeWX5kN2Fl).",
+                   text="Sorry Bro, You are Banned to use me. Contact my [Support Group](https://t.me/LallanMovies).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,7 +42,7 @@ def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/LallanMovies"),
                            InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                       ],
                      [
@@ -59,7 +59,7 @@ def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/LallanMovies"),
                     InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ],
                 [
@@ -79,11 +79,11 @@ def _source_code(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔥 JOIN 🔥 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
+                    InlineKeyboardButton("🔥 JOIN 🔥 ", url="https://t.me/LallanMovies")
                 ],
                 [
                    
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/LallanMovies"),
                     InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ],
                 [
