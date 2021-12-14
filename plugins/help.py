@@ -8,7 +8,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, Usern
 UPDATES_CHANNEL = C.UPDATES_CHANNEL
 logging.basicConfig(level=logging.INFO)
 
-@Client.on_message(filters.incoming & filters.command(['start', 'start@ForcedSubRoBot']))
+@Client.on_message(filters.incoming & filters.command(['start', 'start@ForcedSubscribeRoBot']))
 def _start(client, message):
     update_channel = UPDATES_CHANNEL
     if update_channel:
@@ -17,7 +17,7 @@ def _start(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Bro, You are Banned to use me. Contact my [Support Group](https://t.me/Case_Law_India).",
+                   text="Sorry Bro, You are Banned to use me. Contact my [Support Group](https://t.me/joinchat/fWTl8WXeWX5kN2Fl).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -43,10 +43,10 @@ def _start(client, message):
                     [
                         [
                            InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/LAW_Notes_Llb_Notes")
+                           InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                       ],
                      [
-                           InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://www.facebook.com/LawForCivilServices")
+                           InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                      ]
                  ]
              ),
@@ -60,7 +60,7 @@ def _start(client, message):
             [
                 [
                     InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/LAW_Notes_Llb_Notes")
+                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ],
                 [
                     InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://www.facebook.com/LawForCivilServices")
@@ -72,14 +72,14 @@ def _start(client, message):
         )
 
 
-@Client.on_message(filters.incoming & filters.command(['source_code', 'source_code@ForcedSubRoBot']))
+@Client.on_message(filters.incoming & filters.command(['source_code', 'source_code@ForcedSubscribeRoBot']))
 def _source_code(client, message):
     client.send_message(message.chat.id,
         text=tr.SC_MSG.format(message.from_user.first_name, message.from_user.id),
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔥 UPSC LAW 🔥 ", url="https://t.me/UPSC_LAW_Optionals")
+                    InlineKeyboardButton("🔥 JOIN 🔥 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ],
                 [
                    
@@ -96,7 +96,7 @@ def _source_code(client, message):
         reply_to_message_id=message.message_id
         )
 
-@Client.on_message(filters.incoming & filters.command(['help', 'help@ForcedSubRoBot']))
+@Client.on_message(filters.incoming & filters.command(['help', 'help@ForcedSubscribeRoBot']))
 def _help(client, message):
     update_channel = UPDATES_CHANNEL
     if update_channel:
@@ -105,7 +105,7 @@ def _help(client, message):
             if user.status == "kicked":
                client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry BRO, You are Banned to use me. Contact my [Support Group](https://t.me/LAW_Notes_Llb_Notes).",
+                   text="Sorry BRO, You are Banned to use me. Contact my [Support Group](https://t.me/joinchat/fWTl8WXeWX5kN2Fl).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
