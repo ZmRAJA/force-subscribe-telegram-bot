@@ -7,13 +7,13 @@ logging.basicConfig(level=logging.INFO)
 plugins = dict(
     root="plugins",
     include=[
-        "ForcedSubRoBot",
+        "ForcedSubscribeRoBot",
         "help"
     ]
 )
 
 app = Client(
-     'ForcedSubRoBot',
+     'ForcedSubscribeRoBot',
       bot_token = Config.BOT_TOKEN,
       api_id = Config.APP_ID,
       api_hash = Config.API_HASH,
