@@ -63,7 +63,7 @@ def _start(client, message):
                     InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ],
                 [
-                    InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://www.facebook.com/LawForCivilServices")
+                    InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ]
             ]
         ),
@@ -84,10 +84,10 @@ def _source_code(client, message):
                 [
                    
                     InlineKeyboardButton("Join Updates Channel", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/LAW_Notes_Llb_Notes")
+                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 ],
                 [
-                    InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://www.facebook.com/LawForCivilServices")
+                    InlineKeyboardButton("⚡️ FACEBOOK PAGE ⚡️  ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                 
                 ]
             ]
@@ -127,7 +127,7 @@ def _help(client, message):
         except Exception:
             client.send_message(
                 chat_id=message.chat.id,
-                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/LAW_Notes_Llb_Notes).",
+                text="Hey use this command in my pm. \nFor more help ask in my [Support Group](https://t.me/joinchat/fWTl8WXeWX5kN2Fl).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
