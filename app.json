@@ -1,6 +1,6 @@
 {
-    "name": " 🔥 Force Sub RoBot 🔥 ",
-    "description": "Python based bot to Force Users to sub a channel.",
+    "name": " 🔥🔥 Force Subscribe RoBot 🔥🔥 ",
+    "description": " 🔥🔥 Python based bot to Force Users to sub a channel.🔥🔥 ",
     "logo": "",
     "keywords": [
         "telegram",
@@ -11,8 +11,8 @@
         "ForceSubBot"
     ],
     "repository": "https://github.com/ZmRAJA/force-subscribe-telegram-bot",
-    "website": "http://t.me/ForcedSubRoBot",
-    "success_url": "http://t.me/ForcedSubRoBot",
+    "website": "http://t.me/ForcedSubscribeRoBot",
+    "success_url": "http://t.me/ForcedSubscribeRoBot",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
